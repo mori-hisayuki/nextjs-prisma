@@ -1,0 +1,26 @@
+{
+  "name": "NextJS and Prisma on VSCode",
+  "dockerComposeFile": "./docker-compose.yml",
+  "service": "nextjs_prisma",
+  // workspaceを明示的に指定
+  "workspaceFolder": "/home/vscode/develop",
+  // remotecontainer内でのextension
+  "extensions": [
+    "vscodevim.vim", // Vim
+    "formulahendry.auto-rename-tag", // Auto Rename Tag
+    "mhutchie.git-graph", // Git Graph
+    "vscode-icons-team.vscode-icons", // vscode-icons
+    "vector-of-bool.gitflow", // gitflow
+    "eamodio.gitlens", // GitLens — Git supercharged
+    "oderwat.indent-rainbow", // indent-rainbow
+    "ionutvmi.path-autocomplete", // Path Autocomplete
+    "christian-kohler.path-intellisense", // Path Intellisense
+    "streetsidesoftware.code-spell-checker", // Code Spell Checker
+    "EditorConfig.EditorConfig", // EditorConfig for VS Code
+    "ms-azuretools.vscode-docker", // Docker
+    "rangav.vscode-thunder-client", // Thunder Client
+    "ritwickdey.liveserver", // Live Server
+    "zhuangtongfa.material-theme" // Prettier - Code formatter
+  ],
+  "remoteUser": "vscode"
+}
